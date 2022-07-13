@@ -1,22 +1,3 @@
-/*
-    Problema a ser solucionado:
-
-    Implemente baseado no modelo de monitor o problema do jantar dos filósofos,
-    de maneira que não exista a possibilidade de deadlock e nem de starvation.
-    Cada filósofo deve estar em uma thread e os recursos que usam deverão ser
-    compartilhados (os palitos). Implementar no Linux usando C.
-
-        Sobre o codigo:
-    O código segue um padrão de nomenclatura de variáveis em ingles, com comentários
-    em português. O arquivo "philosophers.c" contem a main e é o programa consumidor
-    da estrutura abstrata de dados "monitor" (implementada no arquivo de mesmo nome).
-
-    Para a execução do código, é necessário usar os seguintes comandos no terminal
-    (desde que no diretório contendo os arquivos):
-    $   make all
-    $   make run
-
-*/
 #include <pthread.h>
 #include <stdio.h>
 #include <assert.h>
